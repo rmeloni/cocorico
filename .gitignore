@@ -3,7 +3,6 @@ app/spool
 app/cache
 app/bootstrap.php.cache
 !app/cache/.gitkeep
-app/config/parameters.yml
 app/config/parameters_test.yml
 app/SymfonyRequirements.php
 
@@ -26,13 +25,11 @@ bin/security-checker.bat
 
 composer.dev.json
 composer.dev.json.tmp
-composer.phar
 .idea/*
 
 vendor/
 
 #see .htacces.dist
-web/.htaccess
 web/bundles/
 web/css/compiled/*
 !web/css/vendor
